@@ -1,0 +1,71 @@
+<html>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <body>
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="Source.html">Source</a>
+            <div class="dropdown">
+            <button class="dropbtn" onclick="myFunction()">More
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content" id="myDropdown">
+              <a href="LifeBeforePower.html">Life Before Power</a>
+              <a href="HowHitlerCameToPower.html">How Hitler Came To Power</a>
+              <a href="ImpactOnThereCountry.html">Impact On There Country</a>
+              <a href="ImpactOnTheWorld.html">Impact On The World</a>
+              <a href="Interest.html">Interesting facts</a>
+              <a href="Reflection.html">Reflection</a>
+            </div>
+            </div> 
+          </div>
+          
+          
+          
+          <script>
+          /* When the user clicks on the button, 
+          toggle between hiding and showing the dropdown content */
+          function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+          }
+          
+          // Close the dropdown if the user clicks outside of it
+          window.onclick = function(e) {
+            if (!e.target.matches('.dropbtn')) {
+            var myDropdown = document.getElementById("myDropdown");
+              if (myDropdown.classList.contains('show')) {
+                myDropdown.classList.remove('show');
+              }
+            }
+          }
+          </script>
+
+<h1 class="header">
+    Interesting Facts
+</h1>
+          <article>
+           <li>
+            He was Austrian
+           </li>
+           
+           Hitler was born in Austria in April 1889, this might seem odd given his association with German nationalism.
+           <li>
+            He was a failed artist
+           </li>
+           Hitler, when his mother died moved to Vienna to persue his love of art, but was turned down becuase he was  not creative and talented enough.
+           <li>
+            He once lived in a homeless shelter
+           </li>
+           Hitlers failure as a artist led to financial concequences.  Hitler was homeless and had to live in a homeless shelter until he recieved his fathers inheritance and moved to Munich
+           
+           <li>
+            He was wounded in the First World War
+           </li>
+        Hitler, while serving in the German army during WW1 was hospitalized by grenade shrapnel
+           <li>
+            He served time for high treason
+           </li>
+           Two days after his failed Coup Hitler was imprisoned for treason.
+          </article>
+        <img src="data:image/jpeg;base64,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">  
+        </body>
+</html>

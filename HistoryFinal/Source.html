@@ -1,0 +1,70 @@
+<html>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <body>
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="Source.html">Source</a>
+            <div class="dropdown">
+            <button class="dropbtn" onclick="myFunction()">More
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content" id="myDropdown">
+              <a href="LifeBeforePower.html">Life Before Power</a>
+              <a href="HowHitlerCameToPower.html">How Hitler Came To Power</a>
+              <a href="ImpactOnThereCountry.html">Impact On There Country</a>
+              <a href="ImpactOnTheWorld.html">Impact On The World</a>
+              <a href="Interest.html">Interesting facts</a>
+              <a href="Reflection.html">Reflection</a>
+            </div>
+            </div> 
+          </div>
+          
+          
+          
+          <script>
+          /* When the user clicks on the button, 
+          toggle between hiding and showing the dropdown content */
+          function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+          }
+          
+          // Close the dropdown if the user clicks outside of it
+          window.onclick = function(e) {
+            if (!e.target.matches('.dropbtn')) {
+            var myDropdown = document.getElementById("myDropdown");
+              if (myDropdown.classList.contains('show')) {
+                myDropdown.classList.remove('show');
+              }
+            }
+          }
+          </script>
+         <h1 class="header">
+            Sources
+         </h1>
+         
+         <li>
+            <cite>Title slide image <a href="https://snl.no/Adolf_Hitler">Site</a></cite>
+          </li>
+           <li> <cite>Origins - Life Before Power <a href="https://history.as.uky.edu/hitler-essential-background-information">Site</a></cite>
+         </li>
+         <li>
+          <cite>War Life - Life Before Power <a href="https://www.annefrank.org/en/timeline/139/hitler-as-a-soldier-in-the-first-world-war/">Site</a></cite>
+         </li>
+         <li>
+          <cite>Rise To Power <a href="https://encyclopedia.ushmm.org/content/en/article/hitler-comes-to-power">Site</a></cite>
+         </li>
+         <li>
+          <cite>Positives - Impact On Germany <a href="https://www.annefrank.org/en/anne-frank/go-in-depth/germany-1933-democracy-dictatorship/">Site</a> <a href="https://www.history.com/topics/world-war-ii/adolf-hitler-1">Site #2</a></cite>
+         </li>
+         <li>
+          <cite>Impact on The World <a href="https://en.wikipedia.org/wiki/Adolf_Hitler#:~:text=Under%20Hitler's%20leadership%20and%20racist,(subhumans)%20or%20socially%20undesirable.">Site</a></cite>
+         </li>
+         <li>
+          <cite>Interesting Facts <a href="https://www.historyhit.com/facts-about-adolf-hitler/">Site</a></cite>
+         </li>
+         <li>
+          <cite>Reflection ME :)</cite>
+         </li>
+    </body>
+</html>

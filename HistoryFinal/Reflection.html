@@ -1,0 +1,48 @@
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<body>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="Source.html">Source</a>
+        <div class="dropdown">
+        <button class="dropbtn" onclick="myFunction()">More
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content" id="myDropdown">
+          <a href="LifeBeforePower.html">Life Before Power</a>
+          <a href="HowHitlerCameToPower.html">How Hitler Came To Power</a>
+          <a href="ImpactOnThereCountry.html">Impact On There Country</a>
+          <a href="ImpactOnTheWorld.html">Impact On The World</a>
+          <a href="Interest.html">Interesting facts</a>
+          <a href="Reflection.html">Reflection</a>
+        </div>
+        </div> 
+      </div>
+      
+      
+      
+      <script>
+      /* When the user clicks on the button, 
+      toggle between hiding and showing the dropdown content */
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+      
+      // Close the dropdown if the user clicks outside of it
+      window.onclick = function(e) {
+        if (!e.target.matches('.dropbtn')) {
+        var myDropdown = document.getElementById("myDropdown");
+          if (myDropdown.classList.contains('show')) {
+            myDropdown.classList.remove('show');
+          }
+        }
+      }
+      </script>
+
+<h1 class="header">
+    Reflection
+</h1>
+<article>
+    Before this project, I didn't know much about this serious and deep topic but researching and coding for this website Improved my comprehension of Hitler and a large plethora of topics related to WW2 and the Holocaust.  I settled upon Hitler because of the understanding that he would have among the highest quality of information regarding his past life and effects because of the severity of his reign.  To sum up my reflection, I have deepened my understanding of Hitler's journey to power and what he did that pronounced such an influential point in history.
+</article>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<html>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <body>
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="Source.html">Source</a>
+            <div class="dropdown">
+            <button class="dropbtn" onclick="myFunction()">More
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content" id="myDropdown">
+              <a href="LifeBeforePower.html">Life Before Power</a>
+              <a href="HowHitlerCameToPower.html">How Hitler Came To Power</a>
+              <a href="ImpactOnThereCountry.html">Impact On There Country</a>
+              <a href="ImpactOnTheWorld.html">Impact On The World</a>
+              <a href="Interest.html">Interesting facts</a>
+              <a href="Reflection.html">Reflection</a>
+            </div>
+            </div> 
+          </div>
+          
+          
+          
+          <script>
+          /* When the user clicks on the button, 
+          toggle between hiding and showing the dropdown content */
+          function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+          }
+          
+          // Close the dropdown if the user clicks outside of it
+          window.onclick = function(e) {
+            if (!e.target.matches('.dropbtn')) {
+            var myDropdown = document.getElementById("myDropdown");
+              if (myDropdown.classList.contains('show')) {
+                myDropdown.classList.remove('show');
+              }
+            }
+          }
+          </script>
+        <h1 class="header">
+            Impact On The World
+        </h1>
+        <article>
+          Hitler, while being one of the most favorable and appealing choices for a leader in Germany, had a substantial impact on the world that we know today. 
+Hitler was responsible for many deaths including the nearly 6 million Jews, 19 million civilians, and the 28.7 million soldiers and civilians that died as a result of military action in the European theatre.
+Apart from these tragic deaths, Hitler was the main cause of WW2, the most destructive war in recorded history that marked 50-85 million casualties. So many people died that around 3.75% of the earth's population was just gone.  Another substantial impact of WW2 was the invention of the Atomic Bomb.  Atomic Bomb - (a bomb that derives its destructive power from the rapid release of nuclear energy by fission of heavy atomic nuclei, causing damage through heat, blast, and radioactivity).  This is the most destructive, cruel, and powerful weapon today.  It's so bad that all 9 countries in possession of the atomic bomb have only used it twice in our history. These 2 two occurrences have caused 340,000 deaths.
+        </article>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGEbnpjnf9KYNSYtxjbobrHJBpG5ucBNPLFQ&usqp=CAU"
+    </body>
+</html>
